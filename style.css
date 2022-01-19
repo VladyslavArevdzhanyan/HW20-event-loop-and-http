@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.title {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color: gray;
+}
+
+.description {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color: gray;
+}
+
+.comments {
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 24px;
+    background-color: gray;
+}
+
+.textareaComment {
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    width: 1000px;
+}
+
+.addComment {
+    height: 60px;
+    width: 300px;
+    text-align: center;  
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.textareaComment {
+    font-size: 24px;
+}
